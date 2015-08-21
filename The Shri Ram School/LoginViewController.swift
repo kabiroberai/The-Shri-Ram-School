@@ -61,7 +61,7 @@ class LoginViewController: UIViewController, UIWebViewDelegate, UITextFieldDeleg
     }
     
     func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
-        alertControllerMake("Error code \(error.code)", message: error.localizedDescription)
+        alertControllerMake("Error \(error.code)", message: error.localizedDescription)
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
