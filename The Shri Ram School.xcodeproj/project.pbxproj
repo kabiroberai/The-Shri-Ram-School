@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56FEF32D1B878A2C00508951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF32C1B878A2C00508951 /* AppDelegate.swift */; };
+		56FEF32F1B878A2C00508951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF32E1B878A2C00508951 /* ViewController.swift */; };
+		56FEF3321B878A2C00508951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FEF3301B878A2C00508951 /* Main.storyboard */; };
+		56FEF3341B878A2C00508951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FEF3331B878A2C00508951 /* Images.xcassets */; };
+		56FEF3371B878A2C00508951 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56FEF3351B878A2C00508951 /* LaunchScreen.xib */; };
+		56FEF3431B878A2D00508951 /* The_Shri_Ram_SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF3421B878A2D00508951 /* The_Shri_Ram_SchoolTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56FEF33D1B878A2C00508951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56FEF31F1B878A2C00508951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56FEF3261B878A2C00508951;
+			remoteInfo = "The Shri Ram School";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56FEF3271B878A2C00508951 /* The Shri Ram School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Shri Ram School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FEF32B1B878A2C00508951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FEF32C1B878A2C00508951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56FEF32E1B878A2C00508951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56FEF3311B878A2C00508951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56FEF3331B878A2C00508951 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56FEF3361B878A2C00508951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		56FEF33C1B878A2C00508951 /* The Shri Ram SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Shri Ram SchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FEF3411B878A2D00508951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FEF3421B878A2D00508951 /* The_Shri_Ram_SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Shri_Ram_SchoolTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56FEF3241B878A2C00508951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FEF3391B878A2C00508951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56FEF31E1B878A2C00508951 = {
+			isa = PBXGroup;
+			children = (
+				56FEF3291B878A2C00508951 /* The Shri Ram School */,
+				56FEF33F1B878A2C00508951 /* The Shri Ram SchoolTests */,
+				56FEF3281B878A2C00508951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56FEF3281B878A2C00508951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56FEF3271B878A2C00508951 /* The Shri Ram School.app */,
+				56FEF33C1B878A2C00508951 /* The Shri Ram SchoolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56FEF3291B878A2C00508951 /* The Shri Ram School */ = {
+			isa = PBXGroup;
+			children = (
+				56FEF32C1B878A2C00508951 /* AppDelegate.swift */,
+				56FEF32E1B878A2C00508951 /* ViewController.swift */,
+				56FEF3301B878A2C00508951 /* Main.storyboard */,
+				56FEF3331B878A2C00508951 /* Images.xcassets */,
+				56FEF3351B878A2C00508951 /* LaunchScreen.xib */,
+				56FEF32A1B878A2C00508951 /* Supporting Files */,
+			);
+			path = "The Shri Ram School";
+			sourceTree = "<group>";
+		};
+		56FEF32A1B878A2C00508951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56FEF32B1B878A2C00508951 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56FEF33F1B878A2C00508951 /* The Shri Ram SchoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				56FEF3421B878A2D00508951 /* The_Shri_Ram_SchoolTests.swift */,
+				56FEF3401B878A2D00508951 /* Supporting Files */,
+			);
+			path = "The Shri Ram SchoolTests";
+			sourceTree = "<group>";
+		};
+		56FEF3401B878A2D00508951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56FEF3411B878A2D00508951 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56FEF3261B878A2C00508951 /* The Shri Ram School */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FEF3461B878A2D00508951 /* Build configuration list for PBXNativeTarget "The Shri Ram School" */;
+			buildPhases = (
+				56FEF3231B878A2C00508951 /* Sources */,
+				56FEF3241B878A2C00508951 /* Frameworks */,
+				56FEF3251B878A2C00508951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Shri Ram School";
+			productName = "The Shri Ram School";
+			productReference = 56FEF3271B878A2C00508951 /* The Shri Ram School.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56FEF33B1B878A2C00508951 /* The Shri Ram SchoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FEF3491B878A2D00508951 /* Build configuration list for PBXNativeTarget "The Shri Ram SchoolTests" */;
+			buildPhases = (
+				56FEF3381B878A2C00508951 /* Sources */,
+				56FEF3391B878A2C00508951 /* Frameworks */,
+				56FEF33A1B878A2C00508951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56FEF33E1B878A2C00508951 /* PBXTargetDependency */,
+			);
+			name = "The Shri Ram SchoolTests";
+			productName = "The Shri Ram SchoolTests";
+			productReference = 56FEF33C1B878A2C00508951 /* The Shri Ram SchoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56FEF31F1B878A2C00508951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "The Shri Ram School";
+				TargetAttributes = {
+					56FEF3261B878A2C00508951 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					56FEF33B1B878A2C00508951 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 56FEF3261B878A2C00508951;
+					};
+				};
+			};
+			buildConfigurationList = 56FEF3221B878A2C00508951 /* Build configuration list for PBXProject "The Shri Ram School" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56FEF31E1B878A2C00508951;
+			productRefGroup = 56FEF3281B878A2C00508951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56FEF3261B878A2C00508951 /* The Shri Ram School */,
+				56FEF33B1B878A2C00508951 /* The Shri Ram SchoolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56FEF3251B878A2C00508951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FEF3321B878A2C00508951 /* Main.storyboard in Resources */,
+				56FEF3371B878A2C00508951 /* LaunchScreen.xib in Resources */,
+				56FEF3341B878A2C00508951 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FEF33A1B878A2C00508951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56FEF3231B878A2C00508951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FEF32F1B878A2C00508951 /* ViewController.swift in Sources */,
+				56FEF32D1B878A2C00508951 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56FEF3381B878A2C00508951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FEF3431B878A2D00508951 /* The_Shri_Ram_SchoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56FEF33E1B878A2C00508951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56FEF3261B878A2C00508951 /* The Shri Ram School */;
+			targetProxy = 56FEF33D1B878A2C00508951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56FEF3301B878A2C00508951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FEF3311B878A2C00508951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56FEF3351B878A2C00508951 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FEF3361B878A2C00508951 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56FEF3441B878A2D00508951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56FEF3451B878A2D00508951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56FEF3471B878A2D00508951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Shri Ram School/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		56FEF3481B878A2D00508951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "The Shri Ram School/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		56FEF34A1B878A2D00508951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Shri Ram SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Shri Ram School.app/The Shri Ram School";
+			};
+			name = Debug;
+		};
+		56FEF34B1B878A2D00508951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Shri Ram SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Shri Ram School.app/The Shri Ram School";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56FEF3221B878A2C00508951 /* Build configuration list for PBXProject "The Shri Ram School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FEF3441B878A2D00508951 /* Debug */,
+				56FEF3451B878A2D00508951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56FEF3461B878A2D00508951 /* Build configuration list for PBXNativeTarget "The Shri Ram School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FEF3471B878A2D00508951 /* Debug */,
+				56FEF3481B878A2D00508951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56FEF3491B878A2D00508951 /* Build configuration list for PBXNativeTarget "The Shri Ram SchoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FEF34A1B878A2D00508951 /* Debug */,
+				56FEF34B1B878A2D00508951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56FEF31F1B878A2C00508951 /* Project object */;
+}
