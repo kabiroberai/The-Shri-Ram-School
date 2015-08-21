@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		56FEF32D1B878A2C00508951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF32C1B878A2C00508951 /* AppDelegate.swift */; };
-		56FEF32F1B878A2C00508951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF32E1B878A2C00508951 /* ViewController.swift */; };
 		56FEF3321B878A2C00508951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FEF3301B878A2C00508951 /* Main.storyboard */; };
 		56FEF3341B878A2C00508951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FEF3331B878A2C00508951 /* Images.xcassets */; };
 		56FEF3371B878A2C00508951 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56FEF3351B878A2C00508951 /* LaunchScreen.xib */; };
 		56FEF3431B878A2D00508951 /* The_Shri_Ram_SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF3421B878A2D00508951 /* The_Shri_Ram_SchoolTests.swift */; };
+		56FEF34D1B878A9A00508951 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF34C1B878A9A00508951 /* LoginViewController.swift */; };
+		56FEF34F1B878ABE00508951 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FEF34E1B878ABE00508951 /* ClassViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		56FEF3271B878A2C00508951 /* The Shri Ram School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Shri Ram School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FEF32B1B878A2C00508951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FEF32C1B878A2C00508951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56FEF32E1B878A2C00508951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56FEF3311B878A2C00508951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56FEF3331B878A2C00508951 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		56FEF3361B878A2C00508951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		56FEF33C1B878A2C00508951 /* The Shri Ram SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Shri Ram SchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FEF3411B878A2D00508951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FEF3421B878A2D00508951 /* The_Shri_Ram_SchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Shri_Ram_SchoolTests.swift; sourceTree = "<group>"; };
+		56FEF34C1B878A9A00508951 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		56FEF34E1B878ABE00508951 /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				56FEF32C1B878A2C00508951 /* AppDelegate.swift */,
-				56FEF32E1B878A2C00508951 /* ViewController.swift */,
+				56FEF34C1B878A9A00508951 /* LoginViewController.swift */,
+				56FEF34E1B878ABE00508951 /* ClassViewController.swift */,
 				56FEF3301B878A2C00508951 /* Main.storyboard */,
 				56FEF3331B878A2C00508951 /* Images.xcassets */,
 				56FEF3351B878A2C00508951 /* LaunchScreen.xib */,
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56FEF32F1B878A2C00508951 /* ViewController.swift in Sources */,
+				56FEF34F1B878ABE00508951 /* ClassViewController.swift in Sources */,
+				56FEF34D1B878A9A00508951 /* LoginViewController.swift in Sources */,
 				56FEF32D1B878A2C00508951 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
